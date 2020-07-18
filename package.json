@@ -1,0 +1,28 @@
+{
+  "name": "truequemundo",
+  "version": "1.0.0",
+  "description": "Software Development",
+  "main": "index.js",
+  "scripts": {
+    "start":"node Servidor/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuturaSoft-SistemaTruequeMundo/truequeMundo.git"
+  },
+  "author": "Jonathan Avila Huamolle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FuturaSoft-SistemaTruequeMundo/truequeMundo/issues"
+  },
+  "homepage": "https://github.com/FuturaSoft-SistemaTruequeMundo/truequeMundo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "http": "0.0.1-security",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.21"
+  }
+}
